@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
+    font-family: 'inter';
+}
+
+.container {
+    display: flex;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    justify-content: center;
+    gap: 1500px;
+    padding: 10px;
+}
+
+.container p{
+    font-size: 35px;
+    color: white;
+    font-family: 'inter';
+    font-weight: 700;
+}
+
+.about{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.about a{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(121, 121, 121);
+    background: rgb(34, 34, 34);;
+    padding: 8px;
+
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+
+    width: 100px;
+    font-family: 'inter';
+    font-weight: 700;
+}
+
+.about a:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+}
+
+
+.container img {
+    height: 50px;
+}
+
+.content{
+    background: #181818;
+}
+
+.inicial{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.inicial h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.inicial p{
+    font-size: 20px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.inicial img{
+    height: 350px;
+    padding-top: 60px;
+    margin-bottom: 90px;
+    
+}
+
+.txt{
+    background: whitesmoke;
+    height: 350px;
+    border-radius: 30px 30px 0px 0px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.txt h2{
+    margin: 20px;
+}
+
+.txt p{
+    padding: 0px 500px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#contact{
+    
+    padding: 60px 700px;
+    
+    .title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .form{
+        text-align: center; 
+        label{
+            color: white;
+        }
+        .slaman{
+            display: flex;
+            gap: 10px;
+            div{
+                text-align: left;
+                width: 100%;
+                input{
+                    width: 100%;
+                }
+            }
+        }
+        .message{
+            margin-top: 10px;
+            text-align: left;
+            input{
+                width: 100%;
+                height: 100px;
+            }
+        }
+    }
+}
+.footer{
+    background: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.submit{
+    text-align: right;
+    margin-top: 15px;
+}
+
+.submit button:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: black;
+}
+
+.submit button{
+
+    border: 2px solid rgb(121, 121, 121);
+    background: rgb(34, 34, 34);;
+    padding: 8px;
+    
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    
+    width: 100px;
+    font-family: 'inter';
+    font-weight: 700;
+    
+}
+
+.footer img{
+    height: 60px;
+    cursor: pointer;
+}
