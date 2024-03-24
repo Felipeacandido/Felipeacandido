@@ -2,6 +2,10 @@
 
 Este é o repositório do código-fonte do meu portfólio online, onde apresento meus projetos e experiências. Este site foi criado para compartilhar meu trabalho e habilidades com outros profissionais e recrutadores.
 
+
+![image](https://github.com/Felipeacandido/Felipeacandido/assets/161148912/c9422d14-e38f-4f38-9160-4f8f38a8f675)
+
+
 ## Tecnologias Utilizadas
 
 - HTML
