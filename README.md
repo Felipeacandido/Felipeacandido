@@ -1,16 +1,25 @@
-### Hi there 👋
+# Portfólio Online - [felipeacandido]
 
-<!--
-**Felipeacandido/Felipeacandido** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Este é o repositório do código-fonte do meu portfólio online, onde apresento meus projetos e experiências. Este site foi criado para compartilhar meu trabalho e habilidades com outros profissionais e recrutadores.
 
-Here are some ideas to get you started:
+## Tecnologias Utilizadas
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- HTML
+- CSS
+
+## Estrutura do Site
+
+O site é estruturado em :
+
+- **Página Inicial**: Breve introdução sobre mim e meus objetivos.
+- **Sobre Mim**: Mais detalhes sobre minha formação, habilidades e experiência.
+- **Projetos**: (ainda em construção).
+- **Contato**: Formulário de contato e informações para me conectar nas redes sociais.
+
+## Como Usar
+
+Para visualizar o site localmente, copie esse link "https://felipeacandido.vercel.app" ou você pode clonar este repositório e abrir o arquivo `index.html` em seu navegador:
+
+```bash
+git clone https://github.com/felipeacandido/portifolio.git
+cd portifolio
